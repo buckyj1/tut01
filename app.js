@@ -65,7 +65,7 @@ const app = () => {
         let progress = outlineLength - (currentTime / fakeDuration) * outlineLength;
         outline.style.strokeDashoffset = progress;
     //anitmate text
-        timeDisplay.textContent = ('${minutes}:${seconds}');
+        timeDisplay.textContent = '${minutes}:${seconds}';
 
 
         if(currentTime >= fakeDuration){
